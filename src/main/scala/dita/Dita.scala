@@ -5,10 +5,7 @@ import com.bot4s.telegram.api.TelegramBot
 import java.net.{Proxy,InetSocketAddress}
 import com.bot4s.telegram.clients.ScalajHttpClient
 
-import scala.util.Try
-
-
-class DitaBot(val token: String) extends TelegramBot
+class Dita(val token: String) extends TelegramBot
   with Polling
   with RegexCommands
   with Commands {
